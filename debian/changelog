@@ -1,4 +1,16 @@
-transienttmp (1.0) unstable; urgency=low
+transienttmp (1.2) gutsy; urgency=low
+
+  * Apparently I got the compatibility setting wrong.
+
+ -- Kohsuke Kawaguchi <kk@kohsuke.org>  Sat, 31 Jan 2009 21:45:01 -0800
+
+transienttmp (1.1) gutsy; urgency=low
+
+  * Relaxing the debhelper dependency constraint.
+
+ -- Kohsuke Kawaguchi <kk@kohsuke.org>  Sat, 31 Jan 2009 21:45:01 -0800
+
+transienttmp (1.0) gutsy; urgency=low
 
   * Initial Release.
 

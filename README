@@ -1,5 +1,7 @@
-This little tool runs a process with a temporary /tmp mount that goes away as soon as the process exits. This is originally developed to handle builds/tools that clutter /tmp.
+This little tool runs a process with a temporary /tmp mount that goes away as soon as the process exits. This is originally developed to handle builds/tests that clutter /tmp.
+
+This tool takes advantages of the per-process mount table available in modern Linux kernels. That is, the process launched through this command will see a different /tmp than the rest of the world sees.
 
 Run this like "transienttmp COMMAND..." like "transienttmp ant test"
 
-The executable needs to have the setuid bit set to perform mount
+To install, "make install"
