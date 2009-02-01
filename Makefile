@@ -1,5 +1,13 @@
+T=${PREFIX}/usr/bin/transienttmp
+
 transienttmp : transienttmp.c
 	$(CC) -o $@ $?
-	sudo chown root:root $@
-	sudo chmod a+x $@
-	sudo chmod u+s $@
+
+install :
+	cp transienttmp $T
+	chown root:root $T
+	chmod a+x $T
+	chmod u+s $T
+
+clean :
+	-rm transienttmp

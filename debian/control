@@ -1,0 +1,14 @@
+Source: transienttmp
+Section: devel
+Priority: extra
+Maintainer: Kohsuke Kawaguchi <kk@kohsuke.org>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+Homepage: http://www.kohsuke.org/
+
+Package: transienttmp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: run a process with a transitive /tmp
+ Runs a process with a transitive /tmp. Useful for
+ running a process that produces a lot of /tmp file
