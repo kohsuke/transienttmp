@@ -3,7 +3,7 @@ Section: devel
 Priority: extra
 Maintainer: Kohsuke Kawaguchi <kk@kohsuke.org>
 Build-Depends: debhelper (>= 7)
-Standards-Version: 3.7.3
+Standards-Version: 3.8.0
 Homepage: http://www.kohsuke.org/
 
 Package: transienttmp
