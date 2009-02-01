@@ -1,0 +1,7 @@
+debian/files
+debian/transienttmp.debhelper.log
+debian/transienttmp.substvars
+debian/transienttmp/
+newtmp.py
+transienttmp
+
