@@ -9,10 +9,6 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-
-
-
-
 configure: configure-stamp
 configure-stamp:
 	dh_testdir
@@ -78,7 +74,7 @@ binary-arch: build install
 	dh_link
 	dh_strip
 	dh_compress
-	dh_fixperms
+	dh_fixperms --exclude /usr/bin/transienttmp
 #	dh_perl
 #	dh_makeshlibs
 	dh_installdeb
